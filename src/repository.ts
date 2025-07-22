@@ -1,5 +1,4 @@
 import { readFile, appendFile } from 'fs/promises';
-import { KeyValue } from './types.js';
 
 export interface KeyValueRepository {
   create(id: string, name: string): Promise<void>;

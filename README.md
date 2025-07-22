@@ -98,7 +98,6 @@ kv-cli/
 │   ├── main.ts             # CLI entry point
 │   ├── cli.ts              # Commander setup
 │   ├── repository.ts       # CSV read/write logic
-│   └── types.ts            # TypeScript interfaces
 └── __tests__/
     ├── repository.test.ts  # Unit tests for repository
     └── cli.test.ts         # Integration tests for CLI
@@ -110,7 +109,6 @@ The application follows a clean architecture pattern:
 
 1. **Repository Layer** (`repository.ts`): Handles CSV file I/O operations
 2. **CLI Layer** (`cli.ts`): Manages command parsing and user interaction
-3. **Types** (`types.ts`): Defines TypeScript interfaces
 4. **Main Entry** (`main.ts`): Application bootstrap
 
 ### Testing
